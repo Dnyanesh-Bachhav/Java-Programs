@@ -1,22 +1,22 @@
 package Star_Patterns;
 /*
-STRIVER Pattern 1:
+STRIVER Pattern 5:
 
 *****
-*****
-*****
-*****
-*****
+****
+***
+**
+*
 
 * * */
-public class Pattern1{
-    public static void main(String[] args) {
-        System.out.println("Hello World...!!!");
+public class Pattern5 {
+    public static void main(String args[])
+    {
         int rows = 5;
         int cols = 5;
         for(int i=0;i<rows;i++)
         {
-            for(int j=0;j<cols;j++)
+            for(int j=cols-i;j>0;j--)
             {
                 System.out.print("*");
             }
